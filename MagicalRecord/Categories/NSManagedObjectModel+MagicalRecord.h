@@ -1,13 +1,22 @@
 //
 //  NSManagedObjectModel+MagicalRecord.h
-//  MagicalRecord
 //
-//  Created by Jacky Wu on 10/1/15.
-//  Copyright © 2015 Magical Panda Software LLC. All rights reserved.
+//  Created by Saul Mora on 3/11/10.
+//  Copyright 2010 Magical Panda Software, LLC All rights reserved.
 //
 
-#ifndef NSManagedObjectModel_MagicalRecord_h
-#define NSManagedObjectModel_MagicalRecord_h
+#import <CoreData/CoreData.h>
 
+@interface NSManagedObjectModel (MagicalRecord)
 
-#endif /* NSManagedObjectModel_MagicalRecord_h */
++ (NSManagedObjectModel *) MR_defaultManagedObjectModel;
+
++ (void) MR_setDefaultManagedObjectModel:(NSManagedObjectModel *)newDefaultModel;
+
++ (NSManagedObjectModel *) MR_mergedObjectModelFromMainBundle;
++ (NSManagedObjectModel *) MR_newManagedObjectModelNamed:(NSString *)modelFileName NS_RETURNS_RETAINED;
++ (NSManagedObjectModel *) MR_managedObjectModelNamed:(NSString *)modelFileName;
++ (NSManagedObjectModel *) MR_newModelNamed:(NSString *) modelName inBundleNamed:(NSString *) bundleName NS_RETURNS_RETAINED;
++ (NSManagedObjectModel *) MR_newModelNamed:(NSString *) modelName inBundle:(NSBundle*) bundle NS_RETURNS_RETAINED;
+
+@end
