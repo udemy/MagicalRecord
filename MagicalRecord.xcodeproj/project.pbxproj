@@ -406,8 +406,9 @@
 		9BB566981A2EA8F8004174B3 /* NSManagedObjectContext+ChainSaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB566931A2C47B3004174B3 /* NSManagedObjectContext+ChainSaveTests.m */; };
 		9BB566991A2EA8FF004174B3 /* NSManagedObjectContext+ChainSaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB566931A2C47B3004174B3 /* NSManagedObjectContext+ChainSaveTests.m */; };
 		ACC5C42C1BBD25AC000C232B /* NSManagedObjectModel+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC5C42B1BBD25AC000C232B /* NSManagedObjectModel+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACC5C42D1BBD25AC000C232B /* NSManagedObjectModel+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC5C42B1BBD25AC000C232B /* NSManagedObjectModel+MagicalRecord.h */; settings = {ASSET_TAGS = (); }; };
-		ACC5C42E1BBD25AC000C232B /* NSManagedObjectModel+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC5C42B1BBD25AC000C232B /* NSManagedObjectModel+MagicalRecord.h */; settings = {ASSET_TAGS = (); }; };
+		ACC5C42D1BBD25AC000C232B /* NSManagedObjectModel+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC5C42B1BBD25AC000C232B /* NSManagedObjectModel+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACC5C42E1BBD25AC000C232B /* NSManagedObjectModel+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC5C42B1BBD25AC000C232B /* NSManagedObjectModel+MagicalRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACC5C4491BBDB66B000C232B /* NSManagedObjectModel+MagicalRecord.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACC5C42B1BBD25AC000C232B /* NSManagedObjectModel+MagicalRecord.h */; };
 		C7CF97C617498493008D9D13 /* MagicalImportFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD729D150F832A00216827 /* MagicalImportFunctions.m */; };
 		C7CF97C717498493008D9D13 /* NSEntityDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD72A1150F832A00216827 /* NSEntityDescription+MagicalDataImport.m */; };
 		C7CF97C817498493008D9D13 /* NSAttributeDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD729F150F832A00216827 /* NSAttributeDescription+MagicalDataImport.m */; };
@@ -590,6 +591,7 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				ACC5C4491BBDB66B000C232B /* NSManagedObjectModel+MagicalRecord.h in CopyFiles */,
 				1352E5841B175E6200182E53 /* MagicalRecord.h in CopyFiles */,
 				1352E5851B175E6200182E53 /* MagicalImportFunctions.h in CopyFiles */,
 				1352E5861B175E6200182E53 /* NSAttributeDescription+MagicalDataImport.h in CopyFiles */,
@@ -869,8 +871,8 @@
 				903125981B103812000E8841 /* Expecta-iOSTests.xctest */,
 				9031259A1B103812000E8841 /* libExpecta.a */,
 				9031259C1B103812000E8841 /* libExpecta.a */,
-				9031259E1B103812000E8841 /* libExpectaTests.xctest */,
-				903125A01B103812000E8841 /* libExpecta-iOSTests.xctest */,
+				9031259E1B103812000E8841 /* ExpectaTests.xctest */,
+				903125A01B103812000E8841 /* Expecta-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1533,16 +1535,18 @@
 			remoteRef = 9031259B1B103812000E8841 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9031259E1B103812000E8841 /* libExpectaTests.xctest */ = {
+		9031259E1B103812000E8841 /* ExpectaTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
+			name = ExpectaTests.xctest;
 			path = libExpectaTests.xctest;
 			remoteRef = 9031259D1B103812000E8841 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		903125A01B103812000E8841 /* libExpecta-iOSTests.xctest */ = {
+		903125A01B103812000E8841 /* Expecta-iOSTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
+			name = "Expecta-iOSTests.xctest";
 			path = "libExpecta-iOSTests.xctest";
 			remoteRef = 9031259F1B103812000E8841 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
