@@ -10,8 +10,17 @@
 #import "MagicalRecordLogging.h"
 
 static NSUInteger kMagicalRecordDefaultBatchSize = 20;
+static NSString *_pprefix = @"";
 
 @implementation NSManagedObject (MagicalRecord)
+
++ (void)MR_setProjectPrefix:(NSString *)prefix {
+    _pprefix = prefix;
+}
+
++ (NSString *)MR_projectPrefix {
+    return _pprefix;
+}
 
 + (NSString *) MR_entityName;
 {
@@ -24,8 +33,14 @@ static NSUInteger kMagicalRecordDefaultBatchSize = 20;
 
     if ([entityName length] == 0)
     {
-        // Remove module prefix from Swift subclasses
-        entityName = [NSStringFromClass(self) componentsSeparatedByString:@"."].lastObject;
+        if ([NSStringFromClass(self) containsString:@"."]) {
+            // Remove module prefix from Swift subclasses
+            entityName = [NSStringFromClass(self) componentsSeparatedByString:@"."].lastObject;
+        } else {
+            // Remove objective-c prefix
+            entityName = [NSStringFromClass(self)
+                          stringByReplacingOccurrencesOfString:[self MR_projectPrefix] withString:@""];
+        }
     }
 
     return entityName;

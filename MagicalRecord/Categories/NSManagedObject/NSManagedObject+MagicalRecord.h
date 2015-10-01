@@ -17,6 +17,9 @@
  */
 + (NSString *) MR_entityName;
 
++ (void)MR_setProjectPrefix:(NSString *)prefix;
++ (NSString *)MR_projectPrefix;
+
 + (NSUInteger) MR_defaultBatchSize;
 + (void) MR_setDefaultBatchSize:(NSUInteger)newBatchSize;
 
