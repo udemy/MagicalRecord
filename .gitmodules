@@ -1,3 +1,6 @@
 [submodule "Carthage/Checkouts/expecta"]
 	path = Carthage/Checkouts/expecta
 	url = https://github.com/udemy/expecta.git
+[submodule "Tests/Vendor/Expecta"]
+	path = Tests/Vendor/Expecta
+	url = git@github.com:udemy/expecta.git
