@@ -630,8 +630,8 @@
 /* Begin PBXFileReference section */
 		581ECBEB187F63FF00084FEE /* ImportMultipleEntitiesWithNoPrimaryKeyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportMultipleEntitiesWithNoPrimaryKeyTests.m; sourceTree = "<group>"; };
 		581ECBF6187F660B00084FEE /* MultipleEntitiesWithNoPrimaryKey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MultipleEntitiesWithNoPrimaryKey.json; path = Fixtures/MultipleEntitiesWithNoPrimaryKey.json; sourceTree = "<group>"; };
-		9004F5211A94CBCF00A61312 /* MagicalRecord for iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MagicalRecord for iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9004F5661A94CBF900A61312 /* MagicalRecord for OS X Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MagicalRecord for OS X Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9004F5211A94CBCF00A61312 /* MagicalRecord-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MagicalRecord-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9004F5661A94CBF900A61312 /* MagicalRecord-OSX-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MagicalRecord-OSX-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9021D9E11AFB34D6001C80BA /* MagicalRecordTestHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MagicalRecordTestHelpers.h; path = Tests/Support/MagicalRecordTestHelpers.h; sourceTree = SOURCE_ROOT; };
 		9021D9E21AFB34D6001C80BA /* MagicalRecordTestHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MagicalRecordTestHelpers.m; path = Tests/Support/MagicalRecordTestHelpers.m; sourceTree = SOURCE_ROOT; };
 		902CE11E18F6133E0024F47C /* MagicalRecordDeprecationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordDeprecationMacros.h; sourceTree = "<group>"; };
@@ -719,8 +719,8 @@
 		C7CF978E174982AD008D9D13 /* MagicalDataImportTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalDataImportTestCase.m; sourceTree = "<group>"; };
 		C7CF97AB17498414008D9D13 /* libMagicalRecord.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMagicalRecord.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CF97BB1749843F008D9D13 /* libMagicalRecord.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMagicalRecord.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7CF97FF174984CA008D9D13 /* libMagicalRecord for iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "libMagicalRecord for iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7CF9816174984E4008D9D13 /* libMagicalRecord for OS X Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "libMagicalRecord for OS X Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CF97FF174984CA008D9D13 /* libMagicalRecord-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "libMagicalRecord-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CF9816174984E4008D9D13 /* libMagicalRecord-OSX-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "libMagicalRecord-OSX-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CF9B4917498985008D9D13 /* SampleJSONDataForImport.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = SampleJSONDataForImport.json; path = Fixtures/SampleJSONDataForImport.json; sourceTree = "<group>"; };
 		C7CF9B4A17498985008D9D13 /* SingleEntityRelatedToManyMappedEntitiesUsingListOfPrimaryKeys.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = SingleEntityRelatedToManyMappedEntitiesUsingListOfPrimaryKeys.json; path = Fixtures/SingleEntityRelatedToManyMappedEntitiesUsingListOfPrimaryKeys.json; sourceTree = "<group>"; };
 		C7CF9B4B17498985008D9D13 /* SingleEntityRelatedToManyMappedEntitiesUsingMappedPrimaryKey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = SingleEntityRelatedToManyMappedEntitiesUsingMappedPrimaryKey.json; path = Fixtures/SingleEntityRelatedToManyMappedEntitiesUsingMappedPrimaryKey.json; sourceTree = "<group>"; };
@@ -984,12 +984,12 @@
 			children = (
 				C7CF97AB17498414008D9D13 /* libMagicalRecord.a */,
 				C7CF97BB1749843F008D9D13 /* libMagicalRecord.dylib */,
-				C7CF97FF174984CA008D9D13 /* libMagicalRecord for iOS Tests.xctest */,
-				C7CF9816174984E4008D9D13 /* libMagicalRecord for OS X Tests.xctest */,
+				C7CF97FF174984CA008D9D13 /* libMagicalRecord-iOS-Tests.xctest */,
+				C7CF9816174984E4008D9D13 /* libMagicalRecord-OSX-Tests.xctest */,
 				905D07181A63DE190076B54E /* MagicalRecord.framework */,
 				905D073B1A63DE690076B54E /* MagicalRecord.framework */,
-				9004F5211A94CBCF00A61312 /* MagicalRecord for iOS Tests.xctest */,
-				9004F5661A94CBF900A61312 /* MagicalRecord for OS X Tests.xctest */,
+				9004F5211A94CBCF00A61312 /* MagicalRecord-iOS-Tests.xctest */,
+				9004F5661A94CBF900A61312 /* MagicalRecord-OSX-Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1302,9 +1302,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9004F4E01A94CBCF00A61312 /* MagicalRecord for iOS Tests */ = {
+		9004F4E01A94CBCF00A61312 /* MagicalRecord-iOS-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9004F51E1A94CBCF00A61312 /* Build configuration list for PBXNativeTarget "MagicalRecord for iOS Tests" */;
+			buildConfigurationList = 9004F51E1A94CBCF00A61312 /* Build configuration list for PBXNativeTarget "MagicalRecord-iOS-Tests" */;
 			buildPhases = (
 				9004F4E11A94CBCF00A61312 /* Sources */,
 				9004F50E1A94CBCF00A61312 /* Frameworks */,
@@ -1315,14 +1315,14 @@
 			);
 			dependencies = (
 			);
-			name = "MagicalRecord for iOS Tests";
+			name = "MagicalRecord-iOS-Tests";
 			productName = MagicalRecordTests;
-			productReference = 9004F5211A94CBCF00A61312 /* MagicalRecord for iOS Tests.xctest */;
+			productReference = 9004F5211A94CBCF00A61312 /* MagicalRecord-iOS-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9004F5251A94CBF900A61312 /* MagicalRecord for OS X Tests */ = {
+		9004F5251A94CBF900A61312 /* MagicalRecord-OSX-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9004F5631A94CBF900A61312 /* Build configuration list for PBXNativeTarget "MagicalRecord for OS X Tests" */;
+			buildConfigurationList = 9004F5631A94CBF900A61312 /* Build configuration list for PBXNativeTarget "MagicalRecord-OSX-Tests" */;
 			buildPhases = (
 				9004F5261A94CBF900A61312 /* Sources */,
 				9004F5531A94CBF900A61312 /* Frameworks */,
@@ -1333,14 +1333,14 @@
 			);
 			dependencies = (
 			);
-			name = "MagicalRecord for OS X Tests";
+			name = "MagicalRecord-OSX-Tests";
 			productName = "MagicalRecordTests-OSX";
-			productReference = 9004F5661A94CBF900A61312 /* MagicalRecord for OS X Tests.xctest */;
+			productReference = 9004F5661A94CBF900A61312 /* MagicalRecord-OSX-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		905D07171A63DE190076B54E /* MagicalRecord for iOS */ = {
+		905D07171A63DE190076B54E /* MagicalRecord-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 905D07341A63DE190076B54E /* Build configuration list for PBXNativeTarget "MagicalRecord for iOS" */;
+			buildConfigurationList = 905D07341A63DE190076B54E /* Build configuration list for PBXNativeTarget "MagicalRecord-iOS" */;
 			buildPhases = (
 				905D07131A63DE190076B54E /* Sources */,
 				905D07141A63DE190076B54E /* Frameworks */,
@@ -1351,14 +1351,14 @@
 			);
 			dependencies = (
 			);
-			name = "MagicalRecord for iOS";
+			name = "MagicalRecord-iOS";
 			productName = MagicalRecord;
 			productReference = 905D07181A63DE190076B54E /* MagicalRecord.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		905D073A1A63DE690076B54E /* MagicalRecord for OS X */ = {
+		905D073A1A63DE690076B54E /* MagicalRecord-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 905D074E1A63DE690076B54E /* Build configuration list for PBXNativeTarget "MagicalRecord for OS X" */;
+			buildConfigurationList = 905D074E1A63DE690076B54E /* Build configuration list for PBXNativeTarget "MagicalRecord-OSX" */;
 			buildPhases = (
 				905D07361A63DE690076B54E /* Sources */,
 				905D07371A63DE690076B54E /* Frameworks */,
@@ -1369,14 +1369,14 @@
 			);
 			dependencies = (
 			);
-			name = "MagicalRecord for OS X";
+			name = "MagicalRecord-OSX";
 			productName = "MagicalRecord OS X";
 			productReference = 905D073B1A63DE690076B54E /* MagicalRecord.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C7CF97AA17498414008D9D13 /* libMagicalRecord for iOS */ = {
+		C7CF97AA17498414008D9D13 /* libMagicalRecord-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7CF97B417498414008D9D13 /* Build configuration list for PBXNativeTarget "libMagicalRecord for iOS" */;
+			buildConfigurationList = C7CF97B417498414008D9D13 /* Build configuration list for PBXNativeTarget "libMagicalRecord-iOS" */;
 			buildPhases = (
 				C7CF97A717498414008D9D13 /* Sources */,
 				C7CF97A817498414008D9D13 /* Frameworks */,
@@ -1386,14 +1386,14 @@
 			);
 			dependencies = (
 			);
-			name = "libMagicalRecord for iOS";
+			name = "libMagicalRecord-iOS";
 			productName = libMagicalRecord;
 			productReference = C7CF97AB17498414008D9D13 /* libMagicalRecord.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		C7CF97BA1749843F008D9D13 /* libMagicalRecord for OS X */ = {
+		C7CF97BA1749843F008D9D13 /* libMagicalRecord-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7CF97C31749843F008D9D13 /* Build configuration list for PBXNativeTarget "libMagicalRecord for OS X" */;
+			buildConfigurationList = C7CF97C31749843F008D9D13 /* Build configuration list for PBXNativeTarget "libMagicalRecord-OSX" */;
 			buildPhases = (
 				C7CF97B71749843F008D9D13 /* Sources */,
 				C7CF97B81749843F008D9D13 /* Frameworks */,
@@ -1403,14 +1403,14 @@
 			);
 			dependencies = (
 			);
-			name = "libMagicalRecord for OS X";
+			name = "libMagicalRecord-OSX";
 			productName = libMagicalRecord;
 			productReference = C7CF97BB1749843F008D9D13 /* libMagicalRecord.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
-		C7CF97FE174984CA008D9D13 /* libMagicalRecord for iOS Tests */ = {
+		C7CF97FE174984CA008D9D13 /* libMagicalRecord-iOS-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7CF980E174984CA008D9D13 /* Build configuration list for PBXNativeTarget "libMagicalRecord for iOS Tests" */;
+			buildConfigurationList = C7CF980E174984CA008D9D13 /* Build configuration list for PBXNativeTarget "libMagicalRecord-iOS-Tests" */;
 			buildPhases = (
 				C7CF97FA174984CA008D9D13 /* Sources */,
 				C7CF97FB174984CA008D9D13 /* Frameworks */,
@@ -1421,14 +1421,14 @@
 			);
 			dependencies = (
 			);
-			name = "libMagicalRecord for iOS Tests";
+			name = "libMagicalRecord-iOS-Tests";
 			productName = MagicalRecordTests;
-			productReference = C7CF97FF174984CA008D9D13 /* libMagicalRecord for iOS Tests.xctest */;
+			productReference = C7CF97FF174984CA008D9D13 /* libMagicalRecord-iOS-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C7CF9815174984E4008D9D13 /* libMagicalRecord for OS X Tests */ = {
+		C7CF9815174984E4008D9D13 /* libMagicalRecord-OSX-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7CF9823174984E4008D9D13 /* Build configuration list for PBXNativeTarget "libMagicalRecord for OS X Tests" */;
+			buildConfigurationList = C7CF9823174984E4008D9D13 /* Build configuration list for PBXNativeTarget "libMagicalRecord-OSX-Tests" */;
 			buildPhases = (
 				C7CF9811174984E4008D9D13 /* Sources */,
 				C7CF9812174984E4008D9D13 /* Frameworks */,
@@ -1439,9 +1439,9 @@
 			);
 			dependencies = (
 			);
-			name = "libMagicalRecord for OS X Tests";
+			name = "libMagicalRecord-OSX-Tests";
 			productName = "MagicalRecordTests-OSX";
-			productReference = C7CF9816174984E4008D9D13 /* libMagicalRecord for OS X Tests.xctest */;
+			productReference = C7CF9816174984E4008D9D13 /* libMagicalRecord-OSX-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1480,14 +1480,14 @@
 			);
 			projectRoot = "";
 			targets = (
-				905D07171A63DE190076B54E /* MagicalRecord for iOS */,
-				9004F4E01A94CBCF00A61312 /* MagicalRecord for iOS Tests */,
-				905D073A1A63DE690076B54E /* MagicalRecord for OS X */,
-				9004F5251A94CBF900A61312 /* MagicalRecord for OS X Tests */,
-				C7CF97AA17498414008D9D13 /* libMagicalRecord for iOS */,
-				C7CF97FE174984CA008D9D13 /* libMagicalRecord for iOS Tests */,
-				C7CF97BA1749843F008D9D13 /* libMagicalRecord for OS X */,
-				C7CF9815174984E4008D9D13 /* libMagicalRecord for OS X Tests */,
+				905D07171A63DE190076B54E /* MagicalRecord-iOS */,
+				9004F4E01A94CBCF00A61312 /* MagicalRecord-iOS-Tests */,
+				905D073A1A63DE690076B54E /* MagicalRecord-OSX */,
+				9004F5251A94CBF900A61312 /* MagicalRecord-OSX-Tests */,
+				C7CF97AA17498414008D9D13 /* libMagicalRecord-iOS */,
+				C7CF97FE174984CA008D9D13 /* libMagicalRecord-iOS-Tests */,
+				C7CF97BA1749843F008D9D13 /* libMagicalRecord-OSX */,
+				C7CF9815174984E4008D9D13 /* libMagicalRecord-OSX-Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -2564,7 +2564,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9004F51E1A94CBCF00A61312 /* Build configuration list for PBXNativeTarget "MagicalRecord for iOS Tests" */ = {
+		9004F51E1A94CBCF00A61312 /* Build configuration list for PBXNativeTarget "MagicalRecord-iOS-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9004F51F1A94CBCF00A61312 /* Debug */,
@@ -2573,7 +2573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9004F5631A94CBF900A61312 /* Build configuration list for PBXNativeTarget "MagicalRecord for OS X Tests" */ = {
+		9004F5631A94CBF900A61312 /* Build configuration list for PBXNativeTarget "MagicalRecord-OSX-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9004F5641A94CBF900A61312 /* Debug */,
@@ -2582,7 +2582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		905D07341A63DE190076B54E /* Build configuration list for PBXNativeTarget "MagicalRecord for iOS" */ = {
+		905D07341A63DE190076B54E /* Build configuration list for PBXNativeTarget "MagicalRecord-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				905D072B1A63DE190076B54E /* Debug */,
@@ -2591,7 +2591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		905D074E1A63DE690076B54E /* Build configuration list for PBXNativeTarget "MagicalRecord for OS X" */ = {
+		905D074E1A63DE690076B54E /* Build configuration list for PBXNativeTarget "MagicalRecord-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				905D074F1A63DE690076B54E /* Debug */,
@@ -2609,7 +2609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7CF97B417498414008D9D13 /* Build configuration list for PBXNativeTarget "libMagicalRecord for iOS" */ = {
+		C7CF97B417498414008D9D13 /* Build configuration list for PBXNativeTarget "libMagicalRecord-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7CF97B517498414008D9D13 /* Debug */,
@@ -2618,7 +2618,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7CF97C31749843F008D9D13 /* Build configuration list for PBXNativeTarget "libMagicalRecord for OS X" */ = {
+		C7CF97C31749843F008D9D13 /* Build configuration list for PBXNativeTarget "libMagicalRecord-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7CF97C41749843F008D9D13 /* Debug */,
@@ -2627,7 +2627,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7CF980E174984CA008D9D13 /* Build configuration list for PBXNativeTarget "libMagicalRecord for iOS Tests" */ = {
+		C7CF980E174984CA008D9D13 /* Build configuration list for PBXNativeTarget "libMagicalRecord-iOS-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7CF980F174984CA008D9D13 /* Debug */,
@@ -2636,7 +2636,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7CF9823174984E4008D9D13 /* Build configuration list for PBXNativeTarget "libMagicalRecord for OS X Tests" */ = {
+		C7CF9823174984E4008D9D13 /* Build configuration list for PBXNativeTarget "libMagicalRecord-OSX-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7CF9824174984E4008D9D13 /* Debug */,
