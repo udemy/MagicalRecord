@@ -36,6 +36,13 @@
  */
 + (NSManagedObjectContext *) MR_defaultContext;
 
+//
++ (void) MR_setDefaultContext:(NSManagedObjectContext *)moc;
+
++ (void)MR_setRootSavingContext:(NSManagedObjectContext *)context;
+//
+
+
 #pragma mark - Context Creation
 
 /**
