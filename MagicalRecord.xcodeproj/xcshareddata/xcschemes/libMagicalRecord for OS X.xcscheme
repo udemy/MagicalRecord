@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0610"
+   LastUpgradeVersion = "0720"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C7CF97BA1749843F008D9D13"
-               BuildableName = "libMagicalRecord-OSX.dylib"
+               BuildableName = "libMagicalRecord.dylib"
                BlueprintName = "libMagicalRecord-OSX"
                ReferencedContainer = "container:MagicalRecord.xcodeproj">
             </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C7CF97BA1749843F008D9D13"
-            BuildableName = "libMagicalRecord-OSX.dylib"
+            BuildableName = "libMagicalRecord.dylib"
             BlueprintName = "libMagicalRecord-OSX"
             ReferencedContainer = "container:MagicalRecord.xcodeproj">
          </BuildableReference>
