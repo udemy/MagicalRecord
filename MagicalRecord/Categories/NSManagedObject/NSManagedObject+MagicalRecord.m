@@ -33,14 +33,15 @@ static NSString *_pprefix = @"";
 
     if ([entityName length] == 0)
     {
+        entityName = NSStringFromClass(self);
+        
         if ([NSStringFromClass(self) containsString:@"."]) {
             // Remove module prefix from Swift subclasses
             entityName = [NSStringFromClass(self) componentsSeparatedByString:@"."].lastObject;
-        } else {
-            // Remove objective-c prefix
-            entityName = [NSStringFromClass(self)
-                          stringByReplacingOccurrencesOfString:[self MR_projectPrefix] withString:@""];
         }
+        
+        // Remove objective-c prefix
+        entityName = [entityName stringByReplacingOccurrencesOfString:[self MR_projectPrefix] withString:@""];
     }
 
     return entityName;
