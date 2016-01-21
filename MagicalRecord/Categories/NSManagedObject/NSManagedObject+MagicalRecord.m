@@ -41,7 +41,11 @@ static NSString *_pprefix = @"";
         }
         
         // Remove objective-c prefix
-        entityName = [entityName stringByReplacingOccurrencesOfString:[self MR_projectPrefix] withString:@""];
+        entityName = [entityName
+                      stringByReplacingOccurrencesOfString:[self MR_projectPrefix] withString:@""];
+        // This is a naming postfix we used to avoid class name conflicts.
+        entityName = [entityName
+                      stringByReplacingOccurrencesOfString:@"Info" withString:@""];
     }
 
     return entityName;
