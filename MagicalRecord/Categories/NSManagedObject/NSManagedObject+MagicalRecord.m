@@ -35,9 +35,9 @@ static NSString *_pprefix = @"";
     {
         entityName = NSStringFromClass(self);
         
-        if ([NSStringFromClass(self) containsString:@"."]) {
+        if ([entityName containsString:@"."]) {
             // Remove module prefix from Swift subclasses
-            entityName = [NSStringFromClass(self) componentsSeparatedByString:@"."].lastObject;
+            entityName = [entityName componentsSeparatedByString:@"."].lastObject;
         }
         
         // Remove objective-c prefix
